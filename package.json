@@ -1,0 +1,32 @@
+{
+  "name": "desafio-daily-diet-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js"
+  },
+  "keywords": [],
+  "author": "lucasnather",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cookie": "9.1.0",
+    "@types/bcryptjs": "2.4.5",
+    "bcryptjs": "2.4.3",
+    "dotenv": "16.3.1",
+    "fastify": "4.24.3",
+    "knex": "3.0.1",
+    "sqlite3": "5.1.6",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.7",
+    "@typescript-eslint/eslint-plugin": "6.8.0",
+    "@typescript-eslint/parser": "6.8.0",
+    "eslint": "8.52.0",
+    "tsx": "3.14.0",
+    "typescript": "5.2.2"
+  }
+}
